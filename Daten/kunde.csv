@@ -1,0 +1,127 @@
+k_id,k_name,k_wohnort,k_strasse,k_geschlecht,k_kundengruppe
+1,Margot Taruvarestein,Billerbeck,Königsberger Strasse 56,w,Privat
+2,Heinz-Günter Molisegehein,Goldberg,Schubertstrasse 298,m,Privat
+3,Rebekka Tolasedehein,Neustadt a.d.Aisch,Finkenstrasse 24,w,Privat
+4,Jerzy Rarudistein,Dreieich,Weststrasse 3,m,Privat
+5,Gitta Pewufo,Erlenbach a.Main,Robert-Bosch-Strasse 291,w,Privat
+6,Sigmund König,Netzschkau,Bergstrasse 226,m,Privat
+7,Werner Jadavademeiner,Ratzeburg,Markt 175b,m,Privat
+8,Elena Matadumüller,Zwickau,Ahornweg 283,w,Privat
+9,Agnes Nöruwademüller,Steinach,Sonnenweg 219,w,Privat
+10,Theda Koch,Langenfeld (Rheinland),Robert-Bosch-Strasse 259,w,Privat
+11,Falk Putasege,Brake (Unterweser),Mühlweg 8b,m,Privat
+12,Franka Niralodeweiner,Kiel,Kantstrasse 252,w,Privat
+13,Marlis Jasodu,Schwentinental,Oststrasse 223,w,Privat
+14,Ines Hilobihein,Wadern,Gutenbergstrasse 216,w,Privat
+15,Romy Petadoweiner,Porta Westfalica,Kirchgasse 249,w,Privat
+15,,Porta Westfalica,Kirchgasse 249,w,Privat
+16,Fedor Porewademeiner,Adorf/Vogtl.,Industriestrasse 288,m,Privat
+17,Leonardo Nudedoson,Lindenfels,Lange Strasse 153,m,Privat
+18,Adalbert Jarovade,Gräfenthal,Schulweg 86,m,Privat
+19,Heinz-Walter Päwidoson,Nienburg (Saale),Burgweg 86a,m,Privat
+20,Maike Murewede,Seelow,Seestrasse 43,w,Privat
+21,Anatolij Musuvore,Schmölln,Jahnstrasse 96,m,Privat
+22,Mike Fischer,Wildenfels,Fasanenweg 267,m,Privat
+23,Helen Wasuflodeweiner,Hagenow,Tannenstrasse 235,w,Privat
+24,Dolores Weber,Dettelbach,Kirchstrasse 14,w,Privat
+25,Sibilla Fischer,Schotten,Blumenweg 255,w,Privat
+26,Hubertine Klein,Otterberg,Heideweg 259,w,Privat
+27,Renate Milevareweiner,Höchstädt a.d.Donau,Lilienweg 231,w,Privat
+28,Woldemar Fudefo,Osthofen,Zeppelinstrasse 232,m,Privat
+29,Joana Hiruplaumeiner,Barth,Tannenstrasse 11,w,Privat
+30,Karolina Catagrodeson,Düren,Stettiner Strasse 298,w,Privat
+31,Anneke Nätagau,Velten,Südstrasse 70,w,Privat
+32,Anett Vovifi,Besigheim,Forstweg 225,w,Privat
+33,Janna Schulze,Syke,Klosterstrasse 179,w,Privat
+34,Ingelore Weber,Bad Orb,Tulpenweg 91,w,Privat
+35,Hans-Hermann Joselatestein,Castrop-Rauxel,Im Wiesengrund 196c,m,Privat
+36,Julian Neumann,Goldberg,Am Hang 265,m,Privat
+37,Frida Ledewatteson,Bad Tennstedt,Finkenweg 266,w,Privat
+38,Cora Nudifare,Wasserburg a.Inn,Rosenweg 289,w,Privat
+39,Senol Codosegeson,Oberkochen,Buchenstrasse 163,m,Privat
+40,Hanspeter Tuwufoweiner,Reutlingen,Forststrasse 124,m,Privat
+41,Jeanette Jodadaweiner,Lichtenstein/Sa.,Sandweg 1,w,Privat
+42,Recep Schröder,Schwarzenbach a.d.Saale,Burgstrasse 255,m,Privat
+43,Uschi Bitufo,Augsburg,Fasanenweg 18,w,Privat
+43,Uschi Bitufo,Augsburg,Fasanenweg 18,w,Privat
+44,Walther Votawattemeiner,Aken (Elbe),Pfarrgasse 88,m,Privat
+45,Theresa Rotaplau,Sternberg,Wacholderweg 268,w,Privat
+46,Ante Rudegaustein,Zerbst/Anhalt,Hölderlinstrasse 157,w,Privat
+47,Inga Ravelate,Baesweiler,Buchenstrasse 149,w,Privat
+48,Heide-Marie Bävumatt,Plön,Friedhofstrasse 62,w,Privat
+49,Hans-Wolfgang Liruwade,Heilsbronn,Marktplatz 252b,m,Privat
+50,Waldtraut Nowufustein,Nideggen,Lange Strasse 282,w,Privat
+51,Philipp Nuvamaumeiner,Stadtoldendorf,Ginsterweg 66,m,Privat
+52,Holger Kaiser,Bersenbrück,Hohlweg 156a,m,Privat
+53,Jacqueline Woramodeweiner,Augsburg,Weiherstrasse 192,w,Privat
+54,Roger Schmidt,Bad Bentheim,Industriestrasse 149,m,Privat
+55,Liliane Puliwadeson,Dülmen,Lerchenweg 252,w,Privat
+56,Kristina Setagede,Westerstede,Grabenstrasse 127c,w,Privat
+56,Kristina Setagede,Westerstede,Grabenstrasse 127c,w,Privat
+57,Max Merumattstein,Baumholder,Akazienweg 163,m,Privat
+58,Heinz Kaiser,Rhens,Jägerstrasse 99,m,Privat
+59,Hans-Joachim Nalibiweiner,Scheßlitz,Wiesenstrasse 285,m,Privat
+60,Thorsten Gäliflodeson,Erkelenz,Waldweg 90,m,Privat
+61,Gabriela Zotobodo,Ludwigsburg,Lindenstrasse 55,w,Gewerblich
+62,Liselotte Cütelateweiner,Rottenburg a.d.Laaber,Seestrasse 234,w,Gewerblich
+63,Sigrid Schmitt,Buxtehude,Grüner Weg 255,w,Gewerblich
+64,Claas Kevufereweiner,Creuzburg,Bachstrasse 291,m,Gewerblich
+65,Wolf-Dietrich Becker,Erbendorf,Kirchgasse 120,m,Gewerblich
+66,Lorenzo Firograde,Burgstädt,Mittelstrasse 109,m,Gewerblich
+67,Agatha Koch,Östringen,Gartenstrasse 23,w,Gewerblich
+68,Marisa Wagner,Scheer,Starenweg 294,w,Gewerblich
+69,Wendelin Bauer,Bad Köstritz,Hölderlinstrasse 198,m,Gewerblich
+70,Heinz-Dieter Welohedestein,Borkum,Ulmenstrasse 186,m,Gewerblich
+71,Daniel Kratz,Bad Säckingen,Waldweg 187d,m,Gewerblich
+72,Aleksander Moriwatteson,Königsbrunn,Seestrasse 294b,m,Gewerblich
+73,Anne-Marie Lolelaustein,Seesen,Sudetenstrasse 93,w,Gewerblich
+74,Annegret Herubede,Aschaffenburg,Schwarzer Weg 264,w,Gewerblich
+75,Natalia Notegede,Oberkirch,Kiefernweg 212,w,Gewerblich
+76,Valentina Ciwavademüller,Schriesheim,Sandweg 140,w,Gewerblich
+77,Stanislaus Peteferemeiner,Möckern,Pappelweg 140,m,Gewerblich
+78,Margareta Rösuwadeson,Kirn,Bahnhofstrasse 183,w,Gewerblich
+78,Margareta Rösuwadeson,Kirn,Bahnhofstrasse 183,w,Gewerblich
+79,Baptist Rötulodestein,Allendorf (Lumda),Mühlstrasse 285,m,Gewerblich
+80,Friedrich-Karl Schröder,Lübbenau/Spreewald,Eichenweg 94,m,Gewerblich
+81,Mustafa Vutasede,Wolgast,Birkenweg 59,m,Gewerblich
+82,Lilo Pötofi,Felsberg,Schubertstrasse 268,m,Gewerblich
+83,Samuel Nelewatteson,Niedenstein,Kapellenstrasse 16,m,Gewerblich
+84,Gloria Gewilodemeiner,Ebersberg,Geschwister-Scholl-Strasse 69,w,Gewerblich
+85,Jacob Fiduvarehein,Wurzen,Markt 185,m,Gewerblich
+86,Luisa Wöwusede,Stühlingen,Luisenstrasse 225,w,Gewerblich
+87,Dora Sodebemüller,Waldmünchen,Zeppelinstrasse 140,w,Gewerblich
+88,Tamara Maier,Wendlingen am Neckar,Rosenweg 161,w,Gewerblich
+89,Jörg-Peter Rawoferehein,Osterhofen,Tulpenstrasse 249,m,Gewerblich
+90,Wolfram Tuvubastein,Voerde (Niederrhein),Sandweg 205,m,Gewerblich
+91,Harald Söviwatteson,Zeil a.Main,Rheinstrasse 298,m,Gewerblich
+92,Igor Schmidt,Torgau,Raiffeisenstrasse 145,m,Gewerblich
+93,Alma Färedustein,Zarrentin am Schaalsee,Erlenstrasse 184b,w,Gewerblich
+94,Claudia Vivesedehein,Herne,Heckenweg 11,w,Gewerblich
+95,Franca Zurabameiner,Seßlach,Pestalozzistrasse 147,w,Gewerblich
+95,Franca Zurabameiner,Seßlach,Pestalozzistrasse 147,w,Gewerblich
+96,Heinrich Bedogradeson,Wittenberg,Tannenweg 40,m,Gewerblich
+97,Anthony Schröder,Annweiler am Trifels,Klosterstrasse 237,m,Gewerblich
+98,Selim Haragradestein,Bad Muskau,Lindenstrasse 139,m,Gewerblich
+99,Svenja Nawusedeson,Rheda-Wiedenbrück,Weinbergstrasse 19,w,Gewerblich
+100,Gerhardt Schmitz,Titisee-Neustadt,Schwarzer Weg 20,m,Gewerblich
+101,Nadja Dödivademüller,St. Georgen im Schwarzwald,Alte Dorfstrasse 133,w,Gewerblich
+102,Janina Juvafostein,Neuenstadt am Kocher,Feldstrasse 118,w,Gewerblich
+103,Philomena Lilibodoweiner,Lahr/Schwarzwald,Raiffeisenstrasse 300,w,Gewerblich
+104,Irmtraut Pösivodehein,Leinefelde-Worbis,Gartenweg 106,w,Gewerblich
+105,Emil Jöweferemüller,Neubulach,Bergweg 165,m,Gewerblich
+106,Sepp Schulze,Bebra,Mörikestrasse 211,m,Gewerblich
+107,Annerose Wagner,Langenau,Nelkenweg 42,w,Gewerblich
+108,Maria-Theresia Zalufledehein,Neu-Isenburg,Sonnenstrasse 257,w,Gewerblich
+109,Rabea Zoviplaumeiner,Burladingen,Nordstrasse 39,w,Gewerblich
+110,Natalie Zodiflodeweiner,Neuwied,Hölderlinstrasse 189,w,Gewerblich
+111,Bruni Dotibimüller,Schönau,Finkenweg 139,m,Gewerblich
+112,Maria-Luise Wotewademüller,Rastenberg,Schwalbenweg 283,w,Gewerblich
+113,Evi Köhler,Sprockhövel,Sudetenstrasse 252,w,Gewerblich
+114,Sofie Gäsegate,Weilheim i.OB,Falkenweg 89d,w,Gewerblich
+115,Harry Meribedestein,Melle,Lessingstrasse 228,m,Gewerblich
+116,Tina Jitolau,Emden,Kirchweg 292,w,Gewerblich
+116,Tina Jitolau,Emden,Kirchweg 292,w,Gewerblich
+117,Sylvien Vitofaremüller,Kaub,Siedlung 53,w,Gewerblich
+118,Christoph Hutalaumeiner,Saalfeld/Saale,Raiffeisenstrasse 84c,m,Gewerblich
+119,Vassilios Josesedemeiner,Gerlingen,Grüner Weg 203d,m,Gewerblich
+120,Ralf Väwuvare,Marktbreit,Grüner Weg 148,m,Gewerblich

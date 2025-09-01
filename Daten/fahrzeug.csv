@@ -1,0 +1,41 @@
+f_id,f_bezeichnung,f_typ,f_kategorie
+1,Toyota Auris,Kleinwagen,Hybrid
+2,KIA XCeed,Kleinwagen,Hybrid
+3,Ford Puma,Kleinwagen,Hybrid
+4,KIA Niro,SUV,Hybrid
+5,Mercedes-Benz A250 e,SUV,Hybrid
+6,Renault Captur,SUV,Hybrid
+7,Mitsubishi Outlander,SUV,Hybrid
+8,Toyota Prius,SUV,Hybrid
+9,BMW 5er,Limousine,Hybrid
+10,Peugeot 508,Limousine,Hybrid
+11,Opel Corsa-e,Kleinwagen,E-Auto
+12,Renault Zoe,Kleinwagen,E-Auto
+13,BMW i3,Kleinwagen,E-Auto
+14,VW ID.3,Kleinwagen,E-Auto
+15,Opel Mokka-e,Kleinwagen,E-Auto
+16,KIA e-Niro,SUV,E-Auto
+17,BMW iX3,SUV,E-Auto
+18,Hyundai Kona Elektro,SUV,E-Auto
+19,Genesis Electrified G80,Limousine,E-Auto
+20,TESLA Model 3,Limousine,E-Auto
+21,Fiat 500,Kleinwagen,Auto
+22,VW up!,Kleinwagen,Auto
+23,VW Lupo,Kleinwagen,Auto
+24,VW Polo,Kleinwagen,Auto
+25,Audi A1,Kleinwagen,Auto
+26,Seat Ibiza,Kleinwagen,Auto
+27,VW Touareg,SUV,Auto
+28,Volvo XC90,SUV,Auto
+29,Mitsubishi ASX,SUV,Auto
+30,Ford Kuga,SUV,Auto
+31,BMW X5,SUV,Auto
+32,Seat Ateca,SUV,Auto
+33,Audi A5,Limousine,Auto
+34,Alfa Romeo Giulietta,Limousine,Auto
+35,Volvo S60,Limousine,Auto
+36,Hyundai i20,Limousine,Auto
+37,Porsche Panamera,Limousine,Auto
+38,Suzuki Burgman 400,Scooter,Motorrad
+39,BMW M 1000 RR,Sport,Motorrad
+40,TBMW F 850,Crossbike,Motorrad

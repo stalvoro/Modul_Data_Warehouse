@@ -1,0 +1,94 @@
+o_id,o_filiale,o_stadt,o_bundesland,o_land
+1,Autohaus Brass,Darmstadt,Hessen,Deutschland
+2,Autohaus Prinzert,Darmstadt,Hessen,Deutschland
+3,Autohaus Zurell,Darmstadt,Hessen,Deutschland
+4,Autohaus Leiss,Frankfurt,Hessen,Deutschland
+5,Autohaus Krämer,Frankfurt,Hessen,Deutschland
+6,Autohaus Am Westbahnhof,Frankfurt,Hessen,Deutschland
+7,Autohaus Westend,Muenchen,Bayern,Deutschland
+8,Autohaus Am Goetheplatz,Muenchen,Bayern,Deutschland
+9,Autohaus Großler,Muenchen,Bayern,Deutschland
+10,Autohaus Schindlbeck,Regensburg,Bayern,Deutschland
+11,Autohaus Ostbayern,Regensburg,Bayern,Deutschland
+12,Autohaus West,Regensburg,Bayern,Deutschland
+13,Autohaus Meer,Hamburg,Hamburg,Deutschland
+14,Autohaus Friese,Hamburg,Hamburg,Deutschland
+15,Autohaus Nord,Hamburg,Hamburg,Deutschland
+16,Autohaus Mueller,Mainz,Rheinland-Pfalz,Deutschland
+17,Autohaus Heinz,Mainz,Rheinland-Pfalz,Deutschland
+18,Autohaus Schott,Mainz,Rheinland-Pfalz,Deutschland
+19,Autohaus Schmitt,Koblenz,Rheinland-Pfalz,Deutschland
+20,Autohaus Mayer,Koblenz,Rheinland-Pfalz,Deutschland
+21,Autohaus Roth,Potsdam,Brandenburg,Deutschland
+22,Autohaus Berlin,Potsdam,Brandenburg,Deutschland
+23,Autohaus Ost,Potsdam,Brandenburg,Deutschland
+24,Autohaus Fisch,Göttingen,Niedersachsen,Deutschland
+25,Autohaus Fleisch,Göttingen,Niedersachsen,Deutschland
+26,Autohaus Gemüse,Göttingen,Niedersachsen,Deutschland
+27,Autohaus Mayer,Wolfsburg,Niedersachsen,Deutschland
+28,Autohaus Schmidt,Wolfsburg,Niedersachsen,Deutschland
+29,Autohaus Maus,Wolfsburg,Niedersachsen,Deutschland
+30,Autohaus Apfel,Leipzig,Sachsen,Deutschland
+31,Autohaus Wolf,Leipzig,Sachsen,Deutschland
+32,Autohaus Saar,Leipzig,Sachsen,Deutschland
+33, Autohaus Applaus,Stuttgart,Baden-Württemberg,Deutschland
+34, Autohaus Oper,Stuttgart,Baden-Württemberg,Deutschland
+35, Autohaus Musik,Stuttgart,Baden-Württemberg,Deutschland
+36, Autohaus Benjamin,Ulm,Baden-Württemberg,Deutschland
+37, Autohaus Rossberg,Ulm,Baden-Württemberg,Deutschland
+38, Autohaus Neu,Weimar,Thüringen,Deutschland
+39, Autohaus Alt,Weimar,Thüringen,Deutschland
+40, Autohaus Ost,Weimar,Thüringen,Deutschland
+41, Autohaus Neumann,Erfurt,Thüringen,Deutschland
+42, Autohaus Weststadt,Erfurt,Thüringen,Deutschland
+43, Autohaus Neustadt,Homburg,Saarland,Deutschland
+44, Autohaus Altstadt,Homburg,Saarland,Deutschland
+45, Autohaus Neurhein,Homburg,Saarland,Deutschland
+46,Autohaus Mion,Salzburg,Salzburg,Oesterreich
+47,Autohaus Kaiserschmarrn,Salzburg,Salzburg,Oesterreich
+48,Autohaus Salzburg,Salzburg,Salzburg,Oesterreich
+49,Autohaus Bayer,Zell am See,Salzburg,Oesterreich
+50,Autohaus Meister,Zell am See,Salzburg,Oesterreich
+51,Autohaus Rathgeb,Zell am See,Salzburg,Oesterreich
+52,Autohaus Neu,Villach,Kärnten,Oesterreich
+53,Autohaus Alt,Villach,Kärnten,Oesterreich
+54,Autohaus Tinti,Villach,Kärnten,Oestereich
+55,Autohaus Jagd,Graz,Steiermark,Oesterreich
+56,Autohaus Gruen,Graz,Steiermark,Oesterreich
+57,Autohaus Schmidt,Graz,Steiermark,Oesterreich
+58,Autohaus Weiss,Hartberg ,Steiermark,Oesterreich
+59,Autohaus Rose,Hartberg ,Steiermark,Oesterreich
+60,Autohaus Vogel,Hartberg ,Steiermark,Oesterreich
+61,Autohaus Kaese,Innsbruck ,Tirol,Oesterreich
+62,Autohaus Lego,Innsbruck ,Tirol,Oesterreich
+63,Autohaus Meier,Innsbruck ,Tirol,Oesterreich
+64,Autohaus Maus,Kufstein ,Tirol,Oesterreich
+65,Autohaus Buch,Kufstein ,Tirol,Oesterreich
+66,Autohaus Baecker,Kufstein ,Tirol,Oesterreich
+67,Autohaus Dreischlag,Bern ,Bern,Schweiz
+68,Autohaus Schweiz,Bern ,Bern,Schweiz
+69,Autohaus Bern,Bern ,Bern,Schweiz
+70,Autohaus Blatt,Zürich ,Zürich,Schweiz
+71,Autohaus Meis,Zürich ,Zürich,Schweiz
+72,Autohaus Jura,Delsberg ,Jura,Schweiz
+73,Autohaus Meister,Delsberg ,Jura,Schweiz
+74,Autohaus Lamm,Delsberg ,Jura,Schweiz
+75,Autohaus Tessin,Bellinzona,Tessin,Schweiz
+76,Autohaus Lehr,Bellinzona,Tessin,Schweiz
+77,Autohaus Kratz,Bellinzona,Tessin,Schweiz
+78,Autohaus Aarau,Aarau,Aargau,Schweiz
+79,Autohaus Aargau,Aarau,Aargau,Schweiz
+80,Autohaus Katz,Aarau,Aargau,Schweiz
+81,Autohaus Waadt,Lausanne,Waadt,Schweiz
+82,Autohaus Lausanne,Lausanne,Waadt,Schweiz
+83,Autohaus Moritz,Lausanne,Waadt,Schweiz
+84,Autohaus Geld,St. Gallen,St. Gallen,Schweiz
+85,Autohaus Grün,St. Gallen,St. Gallen,Schweiz
+86,Autohaus Frau,Frauenfeld,Thurgau,Schweiz
+87,Autohaus Mann,Frauenfeld,Thurgau,Schweiz
+88,Autohaus Kind,Frauenfeld,Thurgau,Schweiz
+89,Autohaus Stabilo,Frauenfeld,Thurgau,Schweiz
+90,Autohaus Motz,Luzern,Luzern,Schweiz
+91,Autohaus Orange,Luzern,Luzern,Schweiz
+92,Autohaus Boss,Luzern,Luzern,Schwez
+93,Autohaus Arnica,Luzern,Luzern,Schweiz
