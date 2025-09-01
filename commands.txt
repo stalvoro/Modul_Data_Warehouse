@@ -1,0 +1,1 @@
+psql -h postgres.fbi.h-da.de -U stalvoro

@@ -1,0 +1,83 @@
+Nr2
+a) SELECT z_jahr, f_kategorie, o_land, sum(VK_Umsatz) 
+	FROM Zeit as Z, Fahrzeug as F, Ort as O, Verkauf as V 
+	WHERE F.F_ID = V.F_ID 
+	AND O.O_ID = V.O_ID
+	AND Z.Z_ID = V.Z_ID
+	AND Z.z_jahr < 2021
+	GROUP BY ROLLUP (z_jahr, f_kategorie, o_land) 
+	ORDER BY z_jahr, f_kategorie, o_land;
+
+b) SELECT z_jahr, f_kategorie, o_land, sum(VK_Umsatz) 
+	FROM Zeit as Z, Fahrzeug as F, Ort as O, Verkauf as V 
+	WHERE F.F_ID = V.F_ID 
+	AND O.O_ID = V.O_ID
+	AND Z.Z_ID = V.Z_ID
+	AND Z.z_jahr < 2021
+	GROUP BY CUBE (z_jahr, f_kategorie, o_land) 
+	ORDER BY z_jahr, f_kategorie, o_land;
+
+Nr3
+SELECT v.f_id, (z.z_tag || '.' || z.z_monat || '.' ||z.z_jahr) as datum, 
+	SUM(v.VK_Umsatz) AS Summe_am_Bestelldatum,
+	SUM(v.VK_Umsatz) OVER(PARTITION BY v.f_id) AS Gesamtsumme_je_Fahrzeug
+	FROM Verkauf as v, zeit as z
+	WHERE v.f_id=12 
+	AND z.z_id = v.z_id
+	GROUP BY (v.f_id, datum, v.VK_Umsatz) 
+	ORDER BY v.f_id, datum
+	DESC;
+
+Nr4
+7.	SELECT o.o_filiale, z.z_monat,
+	SUM(v.vk_umsatz) AS Umsatz_einer_Filiale
+	FROM Verkauf AS v, Ort AS o, Zeit AS z
+	WHERE v.o_id = o.o_id
+	AND v.z_id = z.z_id
+	GROUP BY (o.o_filiale, z.z_monat, v.vk_umsatz)
+	ORDER BY v.vk_umsatz
+	DESC;
+
+6.	SELECT i.o_filiale, i.G_Umsatz,
+SUM(i.G_Umsatz) OVER(PARTITION BY i.o_filiale ORDER BY i.G_Umsatz) AS Kumulierte_Summe_je_Filiale,	
+SUM(i.G_Umsatz) OVER(PARTITION BY i.o_filiale) AS Gesamtsumme_je_Filiale, i.k_id, i.f_id, i.top_kunde
+FROM(
+SELECT v.k_id, 
+	SUM(v.vk_umsatz) AS G_Umsatz, v.f_id, o.o_filiale,
+	RANK() OVER(PARTITION BY o.o_filiale ORDER BY v.vk_umsatz DESC) AS top_kunde
+	FROM Verkauf AS v, Ort AS o
+	WHERE v.o_id = o.o_id
+	GROUP BY (v.vk_umsatz, v.k_id, v.f_id, o.o_filiale)) AS i
+WHERE i.top_kunde <=4
+GROUP BY(i.o_filiale, i.G_Umsatz, i.k_id, i.f_id, i.top_kunde)
+ORDER BY i.o_filiale, i.G_Umsatz
+DESC;
+
+3.	SELECT DISTINCT v.f_id, 
+	SUM(v.vk_umsatz) OVER(PARTITION BY v.f_id) AS Umsatz_je_Fahrzeug
+	FROM Verkauf AS v
+	GROUP BY(v.f_id, v.vk_umsatz)
+	ORDER BY v.f_id
+	DESC;
+
+4.	SELECT DISTINCT v.v_id, 
+	SUM(v.vk_umsatz) OVER(PARTITION BY v.v_id) AS Umsatz_je_Verkäufer
+	FROM Verkauf AS v
+	GROUP BY(v.v_id, v.vk_umsatz)
+	ORDER BY v.v_id
+	DESC;
+	
+1.	SELECT f.f_id, COUNT(f.f_id),
+	SUM(v.vk_umsatz) AS Umsatz_je_Fahrzeug
+	FROM Verkauf AS v, Fahrzeug AS f
+	WHERE v.f_id = f.f_id
+	GROUP BY(f.f_id)
+	ORDER BY f.f_id;
+
+2.	SELECT o.o_land, COUNT(o.o_land),
+	SUM(v.vk_umsatz) AS Umsatz_je_Land
+	FROM Ort AS o, Verkauf AS v
+	WHERE v.o_id = o.o_id
+	GROUP BY(o.o_land)
+	ORDER BY o.o_land
+	DESC;

@@ -1,0 +1,27 @@
+event_columnar	2544kB
+event_row 81MB
+
+Wegen wiederholtem Datensatz
+
+Das Scanen der ganzen Tabelle:
+        
+Zeilenorientierten bennötigt weniger Aufrufe, 
+-> da sich alle Daten nah beieinader befinden (liegen zusammen in einem Tupel auf einer Seite(Datei))
+Spaltenorientiert bennötigt mehr Aufrufe,
+-> es müssen erst noch die anderen Seiten (Datein) geöffnet werden (Daten liegen weiter auseinadner)
+
+    Erfassen der Statistiken nach dem Spaltenlesen:
+        
+Zeilenorientierten bennötigt mehr Aufrufe,
+-> da alle Tupel gezwungenermasen durchlaufen/ gelesen werden müssen 
+Spaltenorientiert bennötigt weniger Aufrufe,
+      + -> da nur die einzelne Spalte durchlaufen werden muss, welche auf einer Seite gespiechert ist
+
+4) 13717605	27986	13745591
+
+SELECT * FROM events_columnar;
+13720140	27986	13748126
+
+SELECT * FROM events_row;
+13722803	36216	13759019
+13733978	36216	13770194
